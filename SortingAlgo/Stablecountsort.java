@@ -26,7 +26,7 @@
           
       
 
-   // Make Prefix Sumarray OF count Array
+   // Make Prefix Sum array OF count Array
    for(int i = 1; i < freq.length ; i++){
     freq[i] += freq[i-1];
    }

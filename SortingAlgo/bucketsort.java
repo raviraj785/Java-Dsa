@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 import java.util.Collections;
 
-public class bucketsort {
+public class bucketsort  {
 
     static void bucketsort(float [] arr){
          int n = arr.length;
@@ -11,7 +11,7 @@ public class bucketsort {
          // Hame Array list banana hoga kyuki yaha two d array bucket me dalna h to arraylist se aasan hoga add karna aur get karna 
          ArrayList<Float> [] buckets = new ArrayList[n];
          // Create A Empty Buckets 
-         for(int i = 0 ; i < n ; i ++){
+         for(int i = 0 ; i < n ; i ++){ 
             buckets[i] = new ArrayList<Float>();
          }
          // add Element into particular bucket 
