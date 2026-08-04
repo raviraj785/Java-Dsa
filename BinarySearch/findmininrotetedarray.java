@@ -10,7 +10,7 @@ public class findmininrotetedarray {
                 ans = mid ;
                 end = mid -1 ;
              }
-             else{
+             else if (arr[mid] > arr[n-1]){
                 st = mid + 1 ;
              }
            }
