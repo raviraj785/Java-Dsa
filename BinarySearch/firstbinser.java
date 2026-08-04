@@ -4,7 +4,7 @@ class firstbinser{
        int st  = 0 ;
        int end = n-1;
        
-       while (st <= end) {
+       while (st <= end)  {
            int mid = (st + end ) / 2 ;
   
            if ( target == arr[mid] ){
