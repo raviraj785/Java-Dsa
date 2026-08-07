@@ -24,7 +24,7 @@ public class practicequestion {
                 else
                     y = i ;
             }
-        }
+        } 
          int temp = arr[x];
          arr[x] =  arr[y];
          arr[y] = temp;
