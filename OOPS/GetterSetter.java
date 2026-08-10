@@ -13,7 +13,7 @@ class Pen {
 
     void setcolour(String newcolour){
         this.colour = newcolour;
-    }
+    } 
     void settip(int tip){
         this.tip = tip;
     }
