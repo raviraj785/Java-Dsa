@@ -1,42 +1,79 @@
 # 🚀 Java DSA
 
-Welcome to my Java Data Structures and Algorithms repository.
+A collection of my **Data Structures and Algorithms (DSA)** practice programs written in **Java**.
+
+This repository documents my journey of learning Java, problem-solving, and mastering Data Structures & Algorithms.
+
+---
 
 ## 📚 Topics Covered
 
-- Arrays
-- 2D Arrays
-- Functions
+### 🔹 Basics
 - Loops
+- Methods
 - Patterns
-- Recursion
+- Functions
 
-## 💻 Language
+### 🔹 Arrays
+- Array Basics
+- Array Problems
+- Array Revision
 
-- Java
+### 🔹 2D Arrays
+- Matrix Operations
+- 2D Array Problems
+- 2D Array Revision
 
-## 🎯 Goals
+### 🔹 Searching
+- Linear Search
+- Binary Search
 
-- Master Data Structures & Algorithms
-- Solve LeetCode Problems
-- Prepare for Product-Based Companies
-- Crack Technical Interviews
+### 🔹 Sorting Algorithms
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Other Sorting Practice
+
+### 🔹 Strings
+- String Basics
+- String Problems
+- String Manipulation
+
+### 🔹 Recursion
+- Basic Recursion Problems
+- Recursive Thinking
+- Problem Solving Using Recursion
+
+### 🔹 Linked List
+- Linked List Basics
+- Linked List Operations
+- Practice Problems
+
+### 🔹 Object-Oriented Programming
+- Classes and Objects
+- Constructors
+- Inheritance
+- Polymorphism
+- Encapsulation
+- Other OOP Concepts
+
+---
 
 ## 📂 Repository Structure
 
-```
-Java-DSA
+```text
+Java-Dsa/
 │
-├── Arrays
-├── 2D Arrays
-├── Functions
-├── Loops
-├── Patterns
-└── Recursion
-```
-
-## 👨‍💻 Author
-
-**Raviraj Kumar Singh**
-
-⭐ If you find this repository useful, consider giving it a star.
+├── ArrayAgainRev/
+├── Arraylec/
+├── BinarySearch/
+├── LinkedList/
+├── Methods/
+├── OOPS/
+├── Recursion/
+├── SortingAlgo/
+├── Strings/
+├── TwoDarrayRevision/
+├── loops/
+├── pattern/
+└── twoDarray/
