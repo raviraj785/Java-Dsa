@@ -14,7 +14,7 @@ public class Dequeue {
 
         //  dq.addFirst(5);
         //  System.out.println(dq);
-        //   dq.removeFirst();
+        //   dq.removeFirst();   
         //   System.out.println(dq);
         //   System.out.println(dq.getFirst());
         //   System.out.println(dq.getLast());
