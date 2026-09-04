@@ -1,79 +1,53 @@
-# 🚀 Java DSA
+# Java DSA Journey 🚀
 
-A collection of my **Data Structures and Algorithms (DSA)** practice programs written in **Java**.
+A structured collection of **Data Structures and Algorithms implementations and problem-solving practice in Java**.
 
-This repository documents my journey of learning Java, problem-solving, and mastering Data Structures & Algorithms.
+This repository documents my journey of learning, implementing, revising, and improving DSA concepts — starting from fundamental programming concepts and gradually moving toward more advanced data structures and algorithms.
 
 ---
 
-## 📚 Topics Covered
+## 📌 About This Repository
 
-### 🔹 Basics
-- Loops
-- Methods
+This repository contains my Java implementations and practice problems covering:
+
+- Arrays
+- Strings
+- Recursion
+- Searching Algorithms
+- Sorting Algorithms
+- Linked Lists
+- Stack
+- Queue
+- HashMap
+- Java Collection Framework
+- Object-Oriented Programming
 - Patterns
-- Functions
+- Loops & Methods
+- Two-Dimensional Arrays
 
-### 🔹 Arrays
-- Array Basics
-- Array Problems
-- Array Revision
-
-### 🔹 2D Arrays
-- Matrix Operations
-- 2D Array Problems
-- 2D Array Revision
-
-### 🔹 Searching
-- Linear Search
-- Binary Search
-
-### 🔹 Sorting Algorithms
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Other Sorting Practice
-
-### 🔹 Strings
-- String Basics
-- String Problems
-- String Manipulation
-
-### 🔹 Recursion
-- Basic Recursion Problems
-- Recursive Thinking
-- Problem Solving Using Recursion
-
-### 🔹 Linked List
-- Linked List Basics
-- Linked List Operations
-- Practice Problems
-
-### 🔹 Object-Oriented Programming
-- Classes and Objects
-- Constructors
-- Inheritance
-- Polymorphism
-- Encapsulation
-- Other OOP Concepts
+The main goal is to build strong **problem-solving skills, algorithmic thinking, and core Java fundamentals**.
 
 ---
 
-## 📂 Repository Structure
+## 🗂️ Repository Structure
 
 ```text
-Java-Dsa/
+Java-DSA/
 │
-├── ArrayAgainRev/
-├── Arraylec/
-├── BinarySearch/
-├── LinkedList/
-├── Methods/
-├── OOPS/
-├── Recursion/
-├── SortingAlgo/
-├── Strings/
-├── TwoDarrayRevision/
-├── loops/
-├── pattern/
-└── twoDarray/
+├── ArrayAgainRev/          # Array revision & practice
+├── ArrayIec/               # Array concepts & problems
+├── BinarySearch/            # Binary Search algorithms
+├── Collection_Framework/    # Java Collection Framework
+├── HashMap/                 # HashMap concepts & problems
+├── LinkedList/              # Linked List implementations
+├── Methods/                 # Java methods & fundamentals
+├── OOPS/                    # Object-Oriented Programming
+├── Queue/                   # Queue implementations & problems
+├── Recursion/               # Recursion concepts & problems
+├── SortingAlgo/             # Sorting algorithms
+├── Stack/                   # Stack implementations & problems
+├── Strings/                 # String concepts & problems
+├── TwoDarrayRevision/       # 2D Array revision
+├── loops/                   # Loop-based problems
+├── pattern/                 # Pattern programming
+└── twoDarray/               # Two-dimensional array problems
