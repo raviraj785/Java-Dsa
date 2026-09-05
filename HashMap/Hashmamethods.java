@@ -4,7 +4,7 @@
 import  java.util.*;
 public class Hashmamethods {
     static void hasmap(){
-        Map<String , Integer> mp = new HashMap<>();
+        Map<String,Integer> mp = new HashMap<>();
         // Adding Element
         mp.put("Akash", 21);
         mp.put("Yash", 16);
