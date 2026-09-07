@@ -1,28 +1,31 @@
 public class FourDirection {
     public static void main(String[] args) {
-        int rows = 4 ;
-
+        int rows = 3 ;
         int cols = 3;
-        print(1 , 1, rows, cols , "");
+        boolean [] [] isValid = new boolean[rows][cols];  // By default -> false
+        print(0 , 0, rows-1, cols-1 , "" , isValid);
     }
-    private static void print(int sr , int sc , int er , int ec ,String s){
-        if(sr < 1 || sc < 1) return ;
+    private static void print(int sr , int sc , int er , int ec ,String s , boolean[][] isVisited){
+       
+        if(sr < 0 || sc < 0) return ;
         if (sr > er || sc > ec) return ;
+        if(isVisited[sr][sc] == true) return ;
             if (sr==er && sc==ec) {
                 System.out.println(s);
                 return ;
 
             }
+            isVisited [sr] [sc] = true;
              // go Right 
 
-             print(sr, sc+1, er, ec, s+"R");
+             print(sr, sc+1, er, ec, s+"R" ,isVisited);
              // go Down 
-             print(sr+1, sc, er, ec, s+"D");
+             print(sr+1, sc, er, ec, s+"D",isVisited);
              // Go left 
-             print(sr, sc-1, er, ec, s+"L");
+             print(sr, sc-1, er, ec, s+"L",isVisited);
              // Go Up
-             print(sr-1, sc, er, ec, s+"U");
-
+             print(sr-1, sc, er, ec, s+"U",isVisited);
+              isVisited [sr] [sc] = false;
         
     }
 }
