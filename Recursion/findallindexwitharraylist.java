@@ -13,6 +13,8 @@ public class findallindexwitharraylist {
         }
         ArrayList<Integer> smallans = allindice(arr, n, x, idx+1);
         ans.addAll(smallans);
+        `
+        
         return ans;
     }
     public static void main(String[] args) {
