@@ -8,12 +8,14 @@ class PreorderTraversalTree{
         this.val= val;
     }
 }
+
  public static void postorder(Node root){
     if(root == null) return ;
     postorder(root.left);
     postorder(root.right);
      System.out.println(root.val);
  }
+
      public static void main(String[] args) {
         Node root = new Node(2);
         Node a = new Node(4);
